@@ -1,0 +1,3 @@
+export const THEME_CHANGE = 'THEME_CHANGE';
+export const IS_SLIDE_SHOW = 'IS_SLIDE_SHOW';
+export const UPDATE_FILTER = 'UPDATE_FILTER';

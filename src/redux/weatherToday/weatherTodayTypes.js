@@ -1,0 +1,3 @@
+export const TODAY_REQUEST = 'TODAY_REQUEST'
+export const TODAY_SUCCESS = 'TODAY_SUCCESS'
+export const TODAY_ERROR = 'TODAY_ERROR'

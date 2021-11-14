@@ -1,13 +1,40 @@
+html {
+  --color-backwhite: #dbdfeb;
+  --color-backblack: #333333;
+  --color-white: #ffffff;
+  --color-whiteslow: #d6cafe;
+  --color-black: #000000;
+  --color-blackslow: #29282b;
+  --border-rad-all-10: 10px;
+  --border-rad-top: 10px 10px 0 0;
+  --border-rad-bottom: 0 0 10px 10px;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.light-main {
+  background-color: var(--color-whiteslow);
+  color: var(--color-black);
+}
+.light-help {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+.dark-main {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.dark-help {
+  background-color: var(--color-blackslow);
+  color: var(--color-white);
 }
